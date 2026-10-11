@@ -9,6 +9,7 @@ One folder per app, each with its own `index.html`:
 - `decision-wheel/` — Decision Wheel (`com.shineshiao.decisionwheel`)
 - `countdown-timer/` — Countdown Timer (`com.shineshiao.countdowntimer`)
 - `bmi-body-metrics/` — BMI & Body Metrics (`com.shineshiao.bmibodymetrics`)
+- `snapend/` — Snapend (`com.shineshiao.snapend`)
 
 `index.html` at the root lists all of them.
 
