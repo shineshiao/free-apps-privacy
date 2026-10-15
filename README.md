@@ -12,6 +12,7 @@ One folder per app, each with its own `index.html`:
 - `snapend/` — Snapend (`com.shineshiao.snapend`)
 - `water-tracker/` — Gym Hydration Tracker (`com.shineshiao.watertracker`)
 - `shift-calendar/` — Shift Calendar (`com.shineshiao.shiftcalendar`)
+- `lunar-calendar/` — Lunar Calendar (`com.shineshiao.lunarcalendar`)
 
 `index.html` at the root lists all of them.
 
