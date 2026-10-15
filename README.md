@@ -10,6 +10,8 @@ One folder per app, each with its own `index.html`:
 - `countdown-timer/` — Countdown Timer (`com.shineshiao.countdowntimer`)
 - `bmi-body-metrics/` — BMI & Body Metrics (`com.shineshiao.bmibodymetrics`)
 - `snapend/` — Snapend (`com.shineshiao.snapend`)
+- `water-tracker/` — Gym Hydration Tracker (`com.shineshiao.watertracker`)
+- `shift-calendar/` — Shift Calendar (`com.shineshiao.shiftcalendar`)
 
 `index.html` at the root lists all of them.
 
