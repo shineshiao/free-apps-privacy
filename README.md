@@ -14,6 +14,7 @@ One folder per app, each with its own `index.html`:
 - `shift-calendar/` — Shift Calendar (`com.shineshiao.shiftcalendar`)
 - `lunar-calendar/` — Lunar Calendar (`com.shineshiao.lunarcalendar`)
 - `calorie-counter/` — Calorie Counter (`com.shineshiao.calorietracker`)
+- `qada-tracker/` — Qada Counter (`com.shineshiao.qadatracker`)
 
 `index.html` at the root lists all of them.
 
