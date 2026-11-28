@@ -64,7 +64,7 @@
 
 <a class="back" href="../">&larr; All apps</a>
 <h1>Privacy Policy</h1>
-<p class="meta">Calorie Counter &middot; Effective 24 November 2026</p>
+<p class="meta">Calorie Counter &middot; Effective 28 November 2026</p>
 
 <p>This policy explains what the <strong>Calorie Counter</strong> mobile application (&ldquo;the app&rdquo;) collects, why, and what choices you have. It applies to the Android version of the app published under the package name <code>com.shineshiao.calorietracker</code>.</p>
 
@@ -77,7 +77,8 @@
 <h2>The short version</h2>
 <ul>
   <li>There are <strong>no accounts</strong>. You never give the app your name, email address, or any other contact detail.</li>
-  <li>Your <strong>food log, exercise, calorie target and body details (age, sex, height, weight) stay on your device</strong>. They are not uploaded to us, and we cannot see them.</li>
+  <li>Your <strong>food log, exercise, calorie target, weigh-ins and body details (age, sex, height, weight) stay on your device</strong>. They are not uploaded to us, and we cannot see them.</li>
+  <li>If you choose to connect <strong>Health Connect</strong>, the app reads your steps and active calories burned. They are used only to add your movement to the day&rsquo;s calories, they stay on your device, and they are never used for ads or analytics.</li>
   <li>The app shows <strong>ads</strong> and uses <strong>analytics and crash reporting</strong>. These use industry-standard identifiers, described below, and never include what you eat or your body details.</li>
   <li>We do not sell your personal information.</li>
 </ul>
@@ -89,22 +90,37 @@
 <p>The app saves the following locally, on your phone or tablet only:</p>
 <ul>
   <li>Your daily calorie target.</li>
-  <li>If you ask the app to suggest a target: your sex, age, height, weight, activity level and goal (lose, keep or gain weight). The suggestion and the estimate of what your body burns in a day are worked out on your phone.</li>
+  <li>If you ask the app to suggest a target: your sex, age, height, weight, activity level, the weight you want to reach and how fast you want to get there. Your BMI, the suggestion and the estimate of what your body burns in a day are worked out on your phone.</li>
+  <li>Your weigh-ins: the weight you enter and the day you entered it, so the app can show the change since your first one.</li>
   <li>Your food log: the foods you add, their calories, the meal and the day.</li>
   <li>The exercise you add by hand, with its minutes and calories.</li>
+  <li>If you connect Health Connect: one total per day of your steps and the calories counted from your movement.</li>
   <li>The foods you typed with your own calories, and the meals you saved, so you can log them again.</li>
-  <li>Your meal reminder settings: which reminders are on and at what time.</li>
+  <li>Your reminder settings: which meal reminders are on and at what time, and whether the weekly weigh-in reminder is on.</li>
+  <li>Whether you want calories shown in kcal or kJ.</li>
 </ul>
 <p>The food list the app estimates calories from is built into the app. Searching it happens on your phone; your searches are not sent anywhere.</p>
 <p>This data never leaves your device through anything we operate. We have no server that receives it and no ability to read it. Deleting the app deletes all of it permanently, and because it is stored only on your device we cannot recover or restore it for you.</p>
 <p><strong>Device backups.</strong> If you have Android&rsquo;s own backup turned on, Android may include the app&rsquo;s data in your device backup to your Google account. That is handled by Google under your device settings and your Google account; we do not receive it. You can turn it off in your device&rsquo;s backup settings.</p>
-<p><strong>Health apps.</strong> The app does not connect to Health Connect, Google Fit or any other health service, and does not read data from them.</p>
+
+<h2>Health Connect</h2>
+<p>Connecting is your choice. The app works fully without it, and it asks only when you tap &ldquo;Connect&rdquo; in the exercise screen.</p>
+<p><strong>What the app reads.</strong> Two kinds of data, and only these: your <strong>steps</strong> and your <strong>active calories burned</strong>, for today and yesterday. They come from Health Connect, where your watch, band or fitness app (for example Mi Fitness, Google Fit or Samsung Health) has saved them. The app only reads. It never writes to Health Connect and never changes or deletes anything there.</p>
+<p><strong>Why.</strong> To add the calories you burned by moving to the calories you have left for the day, so you do not have to type your walks in by hand. This is the only use.</p>
+<p><strong>Where it goes.</strong> Nowhere. The steps and calories are read on your phone and saved in the app&rsquo;s private storage as one total per day. They are not sent to us or to any server. They are not shared with Google AdMob, Firebase Analytics, Firebase Crashlytics or anyone else, and they are never used for advertising, for ad personalisation or to build a profile of you. No person reads them.</p>
+<p><strong>How to stop.</strong> Tap &ldquo;Disconnect&rdquo; in the exercise screen, or remove the app&rsquo;s access in Health Connect&rsquo;s own settings. The app then reads nothing more. The daily totals it had already saved stay in your log on your phone; to remove them, clear the app&rsquo;s storage in Android&rsquo;s app settings or uninstall the app.</p>
+<p>The app&rsquo;s use of information received from Health Connect follows the <a href="https://support.google.com/googleplay/android-developer/answer/9888170" rel="noopener">Health Connect Permissions policy</a>, including its Limited Use requirements.</p>
 
 <h2>Permissions</h2>
-<p>The app asks for one permission, and only if you choose it: <strong>notifications</strong>, when you turn on a meal reminder, so it can remind you to log breakfast, lunch or dinner. If you say no, everything else works and reminders stay off. The app also uses a start-up permission so that reminders you set come back after you restart your phone. It does not request access to your camera, microphone, location, contacts, calendar, photos, files, body sensors or health data. Like all apps that show ads and send crash reports, it uses internet access, which Android grants without asking.</p>
+<p>The app asks for permissions only when you choose a feature that needs them:</p>
+<ul>
+  <li><strong>Notifications</strong>, when you turn on a reminder, so it can remind you to log a meal or to weigh in. If you say no, everything else works and reminders stay off.</li>
+  <li><strong>Health Connect: read steps and read active calories burned</strong>, when you tap &ldquo;Connect&rdquo; in the exercise screen. If you say no, everything else works and you can still add exercise by hand.</li>
+</ul>
+<p>The app also uses a start-up permission so that reminders you set come back after you restart your phone. It does not request access to your camera, microphone, location, contacts, calendar, photos, files or body sensors, and it reads no health data other than the two kinds above. Like all apps that show ads and send crash reports, it uses internet access, which Android grants without asking.</p>
 
 <h2>Information collected automatically</h2>
-<p>The app uses Google services that collect limited technical and usage data. None of it includes your food log, your calorie target or your body details:</p>
+<p>The app uses Google services that collect limited technical and usage data. None of it includes your food log, your calorie target, your body details, your weigh-ins or anything read from Health Connect:</p>
 
 <div class="wrap">
 <table>
@@ -132,7 +148,7 @@
 </table>
 </div>
 
-<p>Analytics records that the app was used, not what you ate, your calories, or your age, height or weight &mdash; those never leave your device. None of this data identifies you by name. We see it only in aggregate, through Google's dashboards.</p>
+<p>Analytics records that the app was used, not what you ate, your calories, your age, height or weight, or your steps &mdash; those never leave your device. None of this data identifies you by name. We see it only in aggregate, through Google's dashboards.</p>
 
 <h2>Advertising</h2>
 <p>The app is free and is funded by advertising. It displays a banner ad and occasional full-screen ads after you finish logging food, never when the app opens and never while you are entering something. Ads are supplied by <strong>Google AdMob</strong>.</p>
@@ -140,7 +156,7 @@
 <p><strong>Your choices:</strong> On Android, go to Settings &rarr; Google &rarr; Ads, where you can delete or reset your advertising ID and opt out of ad personalisation. Opting out does not remove ads from the app &mdash; it makes them less relevant to you.</p>
 
 <h2>Sharing</h2>
-<p>We do not sell your personal information and we do not share it with anyone for their own marketing. Your food log and body details are not used for advertising: they never leave your device. Data is processed only by the service providers listed above (Google LLC and its affiliates), acting on our behalf. We may disclose information if required by law, or to protect our rights or the safety of users.</p>
+<p>We do not sell your personal information and we do not share it with anyone for their own marketing. Your food log, your body details and the data read from Health Connect are not used for advertising: they never leave your device. Data is processed only by the service providers listed above (Google LLC and its affiliates), acting on our behalf. We may disclose information if required by law, or to protect our rights or the safety of users.</p>
 
 <h2>International transfers</h2>
 <p>The Google services above process data on servers that may be located outside your country, including in the United States. Google maintains its own safeguards for these transfers, described in its privacy policy.</p>
@@ -159,6 +175,7 @@
 <p>Because the app holds no account and no personal profile, most of this data is under your direct control:</p>
 <ul>
   <li>To delete your food log, your body details and other data the app has stored, uninstall the app (or clear its storage in Android&rsquo;s app settings).</li>
+  <li>To stop the app reading your steps and calories burned, disconnect Health Connect as described above.</li>
   <li>To reset the identifier used for ads, use the device settings listed under Advertising above.</li>
   <li>For any other request, contact us using the details below.</li>
 </ul>
